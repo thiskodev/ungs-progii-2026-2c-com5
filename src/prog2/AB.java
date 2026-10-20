@@ -8,7 +8,7 @@ public class AB<T extends Comparable<T>> {
   protected Nodo<T> raiz;
   
   class Nodo<T extends Comparable<T>> {
-    private T info;
+    protected T info;
     protected Nodo<T> izq;
     protected Nodo<T> der;
     
@@ -223,4 +223,3 @@ public class AB<T extends Comparable<T>> {
   }
 
 }
-
